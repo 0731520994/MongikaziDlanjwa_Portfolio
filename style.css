@@ -1,0 +1,59 @@
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    flex-wrap: wrap;
+    color: #8B0000;
+}
+
+.navbar a{
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-brand{
+    font-size: 2 rem;
+    font-weight: bold;
+    margin: 1 rem;
+}
+
+.navbar hover{
+    background-color: #8B0000;
+    color:#8B0000
+}
+
+
+.d-flex{
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+    font-size: 80px;
+}
+  
+
+.d-flex h1 span{
+color: #8B0000
+}
+
+.about{
+    display: flex;
+    padding: 50px 0;
+}
+
+.container{
+    display: flex;
+}
+    
+footer {
+    background-color:rgb(234, 244, 250);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
