@@ -49,3 +49,16 @@ h2{
     max-width: 400px;
     height: 500px;
 }
+
+
+
+    
+footer {
+    background-color:rgb(234, 244, 250);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
