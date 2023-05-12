@@ -1,11 +1,13 @@
-
+*{
+    height: fit-content;
+}
 
 .navbar-nav{
     display: flex;
     justify-content: space-between;
     text-align: right;
     flex-wrap: wrap;
-    color: #8B0000;
+    color: #ab3f3f;
 }
 
 .navbar a{
@@ -20,6 +22,7 @@
     margin: 1 rem;
 }
 
+
 .container{
     color: black;
     width: 100%;
@@ -27,7 +30,7 @@
 }
 .col{
     background-color: white;
-    height: 100px;
+    height: fit-content;
     margin: 1rem;
 }
 
@@ -45,11 +48,15 @@ li{
 
    
 footer {
-    background-color:rgb(234, 244, 250);
+    background-color: rgb(194, 223, 227);
     color: black;
     text-align: center;
     padding: 20px;
     /* position: fixed; */
     bottom: 0;
     width: 100%;
+  }
+
+  #headerSection .navbar{
+    background-color:  rgb(194, 223, 227);
   }

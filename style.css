@@ -1,11 +1,25 @@
 
-
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px !important;
+  }
+#headerSection .navbar{
+    background-color: rgb(231, 245, 247);
+    
+  }
 .navbar-nav{
     display: flex;
     justify-content: space-between;
     text-align: right;
     flex-wrap: wrap;
     color: #8B0000;
+}
+.picme {
+    margin: 0% !important;
+    display: block !important;
+    justify-content: center !important;
+
 }
 
 .navbar a{
@@ -46,14 +60,36 @@ color: #8B0000
 .container{
     display: flex;
 }
-    
+
+span{
+    color:#8B0000
+}
+.row{
+    transform: translateY(-10%);
+}
+.row a{
+    text-decoration: none;
+    border:2px solid;
+    border-radius: 2rem;
+    background-color: white;
+    padding: 10px 16px;
+} 
+
 footer {
-    background-color:rgb(234, 244, 250);
+    
+    background-color: rgb(194, 223, 227);
     color: black;
     text-align: center;
     padding: 20px;
-    position: fixed;
     bottom: 0;
     width: 100%;
   }
   
+@media screen and (max-width: 650px) {
+    .image{
+        margin-top: 3rem;
+    }
+}
+
+
+

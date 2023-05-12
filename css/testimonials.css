@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color:rgb(194, 223, 227);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+.col{
+    width: 400px;
+    padding-top: 40px;
+}
+
+#headerSection .navbar{
+    background-color:  rgb(194, 223, 227);
+  }
