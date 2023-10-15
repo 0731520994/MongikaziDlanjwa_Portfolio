@@ -31,16 +31,23 @@
     background-color: rgb(rgb(231, 245, 247));
   }
 
-.h2{
-    text-align:center;
-}
+h2{
+    text-decoration:underline #8B0000;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    size: 3rem;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  
 
    
 footer {
     background-color: rgb(194, 223, 227);
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;

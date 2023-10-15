@@ -39,11 +39,15 @@ color: #8B0000
 
 
 h2{
-    padding-bottom: 40px;
-    margin: 20;
+    text-decoration:underline #8B0000;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    size: 3rem;
+    justify-content: center;
     text-align: center;
-    height: 40;
-}
+    margin: auto;
+  }
+  
 
 .form{ 
     max-width: 400px;
@@ -57,12 +61,15 @@ footer {
     background-color: rgb(194, 223, 227);
     color: black;
     text-align: center;
-    padding: 20px;
-   
+    padding: 10px;
     bottom: 0;
     width: 100%;
   }
 
   #headerSection .navbar{
     background-color: rgb(231, 245, 247);
+  }
+
+  .btn{
+    margin: auto;
   }

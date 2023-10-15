@@ -1,9 +1,4 @@
 
-  .btn1 {
-    display: flex;
-    justify-content: center;
-    padding: 30px !important;
-  }
 #headerSection .navbar{
     background-color: rgb(231, 245, 247);
     
@@ -34,10 +29,7 @@
     margin: 1 rem;
 }
 
-.navbar hover{
-    background-color: #8B0000;
-    color:#8B0000
-}
+
 
 
 .d-flex{
@@ -83,6 +75,7 @@ footer {
     padding: 20px;
     bottom: 0;
     width: 100%;
+    position:relative;
   }
   
 @media screen and (max-width: 650px) {
@@ -91,5 +84,18 @@ footer {
     }
 }
 
+h1 {
+
+    padding-top: 7rem;
+}
 
 
+.btn1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px !important;
+    margin-left: 3rem;
+  }
+  
+  
+ 
